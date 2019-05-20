@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#333c4e</item>
+    </style>
+
+    <style name="headingStyle">
+        <item name="android:textSize">10pt</item>
+        <item name="android:textColor">#333c4e</item>
+    </style>
+
+    <style name="textViewStyle">
+        <item name="android:textSize">7pt</item>
+        <item name="android:textColor">#333c4e</item>
+    </style>
+
+    <style name="editTextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#333c4e</item>
+        <item name="android:textColorHint">#333c4e</item>
+        <item name="android:textSize">7pt</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="lableStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#333c4e</item>
+        <item name="android:textSize">7pt</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
